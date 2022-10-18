@@ -1,0 +1,164 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: serif;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    background-color: #BBE1FA;
+    justify-content: space-around;
+    padding: 20px 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+#navbar h4 {
+    font-family: 'Sacramento',
+        cursive;
+    font-size: 20px;
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.top-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3282B8;
+    padding: 20px 0 0 0;
+}
+
+.top-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10% 0 0 0;
+    flex-direction: column;
+    
+}
+
+.heading-top {
+    width: 70%;
+    padding: 0 0 0 17vh;
+}
+
+
+.p-top {
+    padding: 20px 0 0 17vh;
+    width: 70%;
+
+}
+
+.mid-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0F4C75;
+}
+
+.mid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-mid {
+}
+
+.p-mid {
+    padding: 20px ;
+    width: 40vh;
+}
+
+.media {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo1 {
+    padding: 20px;
+}
+
+.youtube {
+    padding: 20px;
+}
+
+
+
+.bottom-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1B262C;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.heading-bottom {
+    padding: 10px;
+
+}
+
+.p-bottom {
+    padding: 20px;
+}
+
+.maps {
+    padding: 80px 0;
+}
+
+.bottom-wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+
+
+}
+
+.bottom-wrapper a {
+    text-decoration: none;
+    display: block;
+    ;
+}
